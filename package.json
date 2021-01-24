@@ -1,0 +1,20 @@
+{
+  "name": "ms-return-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "serve": "functions-framework --target=main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "dep_peutes:peutes/MsReturnScraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^4.8.1",
+    "@google-cloud/functions-framework": "^1.7.1"
+  }
+}
