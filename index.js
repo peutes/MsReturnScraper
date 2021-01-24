@@ -1,5 +1,5 @@
+'use strict';
 
-exports.main = (req, res) => {
-  res.status(200).send("hello world!")
+exports.function = (req, res) => {
+  res.status(200).send("hello world3!")
 }
-
